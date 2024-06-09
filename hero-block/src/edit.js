@@ -86,11 +86,6 @@ export default function Edit({ attributes, setAttributes }) {
 						options={
 							[
 								{
-									disabled: true,
-									label: 'Select an Option',
-									value: ''
-								  },
-								{
 									label: "Text Right",
 									value: "text-right"
 								},

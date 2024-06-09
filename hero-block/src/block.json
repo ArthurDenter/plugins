@@ -14,7 +14,8 @@
 	},
 	"attributes": {
 		"layout_variant": {
-			"type": "string"
+			"type": "string",
+			"default": "text-left"
 		},
 		"image_id": {
 			"type": "number"
