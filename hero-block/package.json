@@ -1,7 +1,7 @@
 {
-	"name": "copyright-date-block",
+	"name": "hero-block",
 	"version": "0.1.0",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": "Block for displaying a hero image with text overlay.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",

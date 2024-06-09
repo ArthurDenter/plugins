@@ -14,7 +14,6 @@ $image_id = $attributes["image_id"];
 $link = $attributes["link"];
 $head = $attributes["head"];
 $layout_variant = $attributes["layout_variant"];
-echo var_dump($layout_variant);
 ?>
 
 

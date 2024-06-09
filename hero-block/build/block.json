@@ -1,12 +1,12 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "create-block/copyright-date-block",
+  "name": "create-block/hero-block",
   "version": "0.1.0",
-  "title": "Copyright Date Block",
+  "title": "Hero-Block",
   "category": "widgets",
   "icon": "smiley",
-  "description": "Example block scaffolded with Create Block tool.",
+  "description": "Block for displaying a hero image with text overlay.",
   "example": {},
   "supports": {
     "html": false,
@@ -16,11 +16,7 @@
   },
   "attributes": {
     "layout_variant": {
-      "enum": [
-        "text-left",
-        "text-right"
-      ],
-      "default": "text-left"
+      "type": "string"
     },
     "image_id": {
       "type": "number"
@@ -41,7 +37,7 @@
       }
     }
   },
-  "textdomain": "copyright-date-block",
+  "textdomain": "hero-block",
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css",
