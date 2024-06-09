@@ -1,0 +1,89 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.wp-block-create-block-copyright-date-block,
+.wp-block-create-block-cta-dynamic-block {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.wp-block-create-block-copyright-date-block .cta-image-container,
+.wp-block-create-block-cta-dynamic-block .cta-image-container {
+  width: 70%;
+  align-self: stretch;
+  position: relative;
+  background: #e5e5e5;
+}
+.wp-block-create-block-copyright-date-block .cta-image-container .button-remove,
+.wp-block-create-block-cta-dynamic-block .cta-image-container .button-remove {
+  z-index: 2;
+  position: absolute;
+}
+.wp-block-create-block-copyright-date-block .cta-image-container img,
+.wp-block-create-block-cta-dynamic-block .cta-image-container img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 0;
+  left: 0;
+}
+.wp-block-create-block-copyright-date-block .cta-text-container,
+.wp-block-create-block-cta-dynamic-block .cta-text-container {
+  box-sizing: border-box;
+  width: 50%;
+  margin-left: -20%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  z-index: 2;
+  background: white;
+  box-shadow: 4px 0px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  padding: 50px 32px;
+}
+.wp-block-create-block-copyright-date-block .cta-text-container h2,
+.wp-block-create-block-cta-dynamic-block .cta-text-container h2 {
+  margin-top: 0;
+}
+.wp-block-create-block-copyright-date-block .wp-element-button,
+.wp-block-create-block-cta-dynamic-block .wp-element-button {
+  display: inline-block;
+}
+.wp-block-create-block-copyright-date-block.variant-text-left,
+.wp-block-create-block-cta-dynamic-block.variant-text-left {
+  flex-direction: row-reverse;
+}
+.wp-block-create-block-copyright-date-block.variant-text-left .cta-image-container,
+.wp-block-create-block-cta-dynamic-block.variant-text-left .cta-image-container {
+  justify-content: flex-end;
+}
+.wp-block-create-block-copyright-date-block.variant-text-left .cta-text-container,
+.wp-block-create-block-cta-dynamic-block.variant-text-left .cta-text-container {
+  margin-left: 0%;
+  margin-right: -20%;
+}
+@media (max-width: 768px) {
+  .wp-block-create-block-copyright-date-block.variant-text-left, .wp-block-create-block-copyright-date-block.variant-text-right,
+  .wp-block-create-block-cta-dynamic-block.variant-text-left,
+  .wp-block-create-block-cta-dynamic-block.variant-text-right {
+    flex-direction: column;
+  }
+  .wp-block-create-block-copyright-date-block.variant-text-left .cta-image-container, .wp-block-create-block-copyright-date-block.variant-text-right .cta-image-container,
+  .wp-block-create-block-cta-dynamic-block.variant-text-left .cta-image-container,
+  .wp-block-create-block-cta-dynamic-block.variant-text-right .cta-image-container {
+    width: 100%;
+    aspect-ratio: 1.25;
+  }
+  .wp-block-create-block-copyright-date-block.variant-text-left .cta-text-container, .wp-block-create-block-copyright-date-block.variant-text-right .cta-text-container,
+  .wp-block-create-block-cta-dynamic-block.variant-text-left .cta-text-container,
+  .wp-block-create-block-cta-dynamic-block.variant-text-right .cta-text-container {
+    width: 90%;
+    margin-left: 0;
+    margin-top: -50px;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/
